@@ -19,8 +19,17 @@
         <activity android:name=".solution1.UserListActivity" />
         <activity android:name=".solution3.UserListActivity" />
         <activity android:name=".solution2.UserListActivity" />
-        <activity android:name=".loginmodule.InputAccountActivity" />
-        <activity android:name=".loginmodule.InputPasswordActivity"></activity>
+        <activity
+            android:name=".loginmodule.InputAccountActivity"
+            android:label="登录模块" />
+        <activity
+            android:name=".loginmodule.InputPasswordActivity"
+            android:label="登录模块" />
+        <activity
+            android:name=".authmodule.AuthActivity"
+            android:label="实名认证模块" />
+        <activity android:name=".vipmodule.BuyVipActivity"
+            android:label="Vip商城"/>
     </application>
 
 </manifest>

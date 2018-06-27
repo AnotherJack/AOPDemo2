@@ -1,31 +1,26 @@
 <?xml version="1.0" encoding="utf-8"?>
-<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:orientation="vertical"
-    tools:context="io.github.anotherjack.aopdemo2.loginmodule.InputPasswordActivity">
-    <EditText
-        android:id="@+id/et_password"
-        android:hint="输入密码"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content" />
-
+    tools:context="io.github.anotherjack.aopdemo2.authmodule.AuthActivity">
     <Button
-        android:id="@+id/btn_success"
+        android:id="@+id/auth_success"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
+        android:layout_margin="5dp"
         android:textColor="@android:color/white"
         android:background="@color/colorPrimary"
-        android:text="提交（模拟登录成功）"/>
-
+        android:text="模拟实名认证成功"/>
     <Button
-        android:id="@+id/btn_fail"
+        android:id="@+id/auth_fail"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:layout_marginTop="5dp"
+        android:layout_margin="5dp"
         android:textColor="@android:color/white"
         android:background="@color/colorPrimary"
-        android:text="提交（模拟登录失败）"/>
+        android:text="模拟实名认证失败"/>
 </LinearLayout>

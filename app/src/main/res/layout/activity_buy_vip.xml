@@ -5,20 +5,21 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:orientation="vertical"
-    tools:context="io.github.anotherjack.aopdemo2.loginmodule.InputAccountActivity">
+    tools:context="io.github.anotherjack.aopdemo2.vipmodule.BuyVipActivity">
 
     <EditText
-        android:id="@+id/et_account"
-        android:hint="输入用户名"
+        android:id="@+id/et_level"
+        android:hint="vip等级，输入正确的整数"
+        android:inputType="number"
         android:layout_width="match_parent"
         android:layout_height="wrap_content" />
 
     <Button
-        android:id="@+id/btn_next"
+        android:id="@+id/btn_buy"
+        android:text="确认开通"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:text="下一步"
-        android:textColor="@android:color/white"
+        android:textColor="#ffffff"
         android:background="@color/colorPrimary"/>
 
 </LinearLayout>
