@@ -5,6 +5,7 @@ import android.content.Intent
 import android.support.v7.app.AppCompatActivity
 import android.os.Bundle
 import io.github.anotherjack.aopdemo2.R
+import io.github.anotherjack.aopdemo2.annotation.RequireLogin
 import io.github.anotherjack.aopdemo2.loginmodule.InputAccountActivity
 import io.github.anotherjack.aopdemo2.loginmodule.LoginManager
 import kotlinx.android.synthetic.main.activity_buy_vip.*
@@ -21,12 +22,13 @@ class BuyVipActivity : AppCompatActivity() {
         }
     }
 
+    @RequireLogin(proceed = false)
     private fun buyVip(){
-        if(!LoginManager.isLogin){
-            val i = Intent(this, InputAccountActivity::class.java)
-            startActivityForResult(i, REQUEST_CODE_LOGIN)
-            return
-        }
+//        if(!LoginManager.isLogin){
+//            val i = Intent(this, InputAccountActivity::class.java)
+//            startActivityForResult(i, REQUEST_CODE_LOGIN)
+//            return
+//        }
 
         val level = et_level.text.toString().toInt()
         VipManager.vipLevel = level
