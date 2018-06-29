@@ -13,17 +13,17 @@ class MainActivity : AppCompatActivity() {
         setContentView(R.layout.activity_main)
 
         btn1.setOnClickListener {
-            val intent = Intent(this, io.github.anotherjack.aopdemo2.solution1.UserListActivity::class.java)
+            val intent = Intent(this, io.github.anotherjack.aopdemo2.solution1.UserListActivity1::class.java)
             startActivity(intent)
         }
 
         btn2.setOnClickListener {
-            val intent = Intent(this, io.github.anotherjack.aopdemo2.solution2.UserListActivity::class.java)
+            val intent = Intent(this, io.github.anotherjack.aopdemo2.solution2.UserListActivity2::class.java)
             startActivity(intent)
         }
 
         btn3.setOnClickListener {
-            val intent = Intent(this, io.github.anotherjack.aopdemo2.solution3.UserListActivity::class.java)
+            val intent = Intent(this, io.github.anotherjack.aopdemo2.solution3.UserListActivity3::class.java)
             startActivity(intent)
         }
     }

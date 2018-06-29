@@ -11,6 +11,7 @@
         android:id="@+id/et_level"
         android:hint="vip等级，输入正确的整数"
         android:inputType="number"
+        android:text="5"
         android:layout_width="match_parent"
         android:layout_height="wrap_content" />
 

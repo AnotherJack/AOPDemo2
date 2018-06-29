@@ -17,7 +17,7 @@ import io.github.anotherjack.aopdemo2.vipmodule.BuyVipActivity
 import io.github.anotherjack.aopdemo2.vipmodule.VipManager
 import kotlinx.android.synthetic.main.activity_user_list.*
 
-class UserListActivity : AppCompatActivity() {
+class UserListActivity1 : AppCompatActivity() {
     private lateinit var mAdapter: UserListAdapter
     private val REQUEST_CODE_LOGIN = 23
     private val REQUEST_CODE_AUTH = 24

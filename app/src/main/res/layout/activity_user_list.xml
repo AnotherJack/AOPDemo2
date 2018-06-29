@@ -5,7 +5,7 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:orientation="vertical"
-    tools:context="io.github.anotherjack.aopdemo2.solution1.UserListActivity">
+    tools:context="io.github.anotherjack.aopdemo2.solution1.UserListActivity1">
 
     <LinearLayout
         android:layout_width="match_parent"

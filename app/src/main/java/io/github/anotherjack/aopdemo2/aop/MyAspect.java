@@ -117,7 +117,7 @@ public class MyAspect {
 
     @Around("requireVipPointcut(requireVip)")
     public void requireVip(final ProceedingJoinPoint proceedingJoinPoint, RequireVip requireVip) throws Throwable {
-        boolean proceed = requireVip.proceed();
+        final boolean proceed = requireVip.proceed();
         final int requireLevel = requireVip.requireLevel();
 
         if (VipManager.INSTANCE.getVipLevel() >= requireLevel) {
@@ -128,7 +128,7 @@ public class MyAspect {
                 VipManager.INSTANCE.toBuyVip(topActivity, new VipManager.VipCallback() {
                     @Override
                     public void onBuyVip(int vipLevel) {
-                        if(vipLevel>=requireLevel){
+                        if(proceed && vipLevel>=requireLevel){
                             try {
                                 proceedingJoinPoint.proceed();
                             } catch (Throwable throwable) {

@@ -17,9 +17,9 @@
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
-        <activity android:name=".solution1.UserListActivity" />
-        <activity android:name=".solution3.UserListActivity" />
-        <activity android:name=".solution2.UserListActivity" />
+        <activity android:name=".solution1.UserListActivity1" />
+        <activity android:name=".solution3.UserListActivity3" />
+        <activity android:name=".solution2.UserListActivity2" />
         <activity
             android:name=".loginmodule.InputAccountActivity"
             android:label="登录模块" />
