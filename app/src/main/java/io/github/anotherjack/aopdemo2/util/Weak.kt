@@ -1,4 +1,4 @@
-package io.github.anotherjack.delegatedemo
+package io.github.anotherjack.aopdemo2.util
 
 import android.util.Log
 import java.lang.ref.WeakReference

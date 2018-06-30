@@ -30,5 +30,5 @@
         android:layout_margin="5dp"
         android:textColor="@android:color/white"
         android:background="@color/colorPrimary"
-        android:text="方式三（最终）"/>
+        android:text="方式三"/>
 </LinearLayout>

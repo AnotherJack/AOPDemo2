@@ -3,7 +3,7 @@ package io.github.anotherjack.aopdemo2
 import android.app.Activity
 import android.app.Application
 import android.os.Bundle
-import io.github.anotherjack.delegatedemo.Weak
+import io.github.anotherjack.aopdemo2.util.Weak
 
 /**
  * Created by jack on 2018/6/28.
