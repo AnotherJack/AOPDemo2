@@ -43,8 +43,8 @@ object AuthManager {
 
 
 
-    //方式3
-    @RequireLogin(proceed = true)
+    //方式3请添加注解，方式四请注掉下面的注解
+//    @RequireLogin(proceed = true)
     fun toAuth(activity: Activity, authCallback: AuthCallback){
         AvoidOnResult(activity).startForResult(AuthActivity::class.java,object :AvoidOnResult.Callback{
             override fun onActivityResult(resultCode: Int, data: Intent?) {

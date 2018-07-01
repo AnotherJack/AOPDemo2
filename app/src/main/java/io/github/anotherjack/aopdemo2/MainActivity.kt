@@ -4,6 +4,7 @@ import android.content.Intent
 import android.support.v7.app.AppCompatActivity
 import android.os.Bundle
 import io.github.anotherjack.aopdemo2.annotation.ShowConfirm
+import io.github.anotherjack.aopdemo2.solution4.UserListActivity4
 import kotlinx.android.synthetic.main.activity_main.*
 
 class MainActivity : AppCompatActivity() {
@@ -24,6 +25,11 @@ class MainActivity : AppCompatActivity() {
 
         btn3.setOnClickListener {
             val intent = Intent(this, io.github.anotherjack.aopdemo2.solution3.UserListActivity3::class.java)
+            startActivity(intent)
+        }
+
+        btn4.setOnClickListener {
+            val intent = Intent(this, UserListActivity4::class.java)
             startActivity(intent)
         }
     }

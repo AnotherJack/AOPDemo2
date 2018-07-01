@@ -31,6 +31,7 @@
             android:label="实名认证模块" />
         <activity android:name=".vipmodule.BuyVipActivity"
             android:label="Vip商城"/>
+        <activity android:name=".solution4.UserListActivity4" />
     </application>
 
 </manifest>

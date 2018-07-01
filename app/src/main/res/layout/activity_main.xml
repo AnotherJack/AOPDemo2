@@ -31,4 +31,17 @@
         android:textColor="@android:color/white"
         android:background="@color/colorPrimary"
         android:text="方式三"/>
+    <Button
+        android:id="@+id/btn4"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="5dp"
+        android:textColor="@android:color/white"
+        android:background="@color/colorPrimary"
+        android:text="方式四（一个方法上多个注解）"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="注意：尝试方式四时请将AuthManager的toAuth方法上的注解去掉；尝试方式三时请把注解添加上"/>
 </LinearLayout>
