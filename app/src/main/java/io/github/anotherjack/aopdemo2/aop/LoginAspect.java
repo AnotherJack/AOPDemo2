@@ -7,6 +7,7 @@ import org.aspectj.lang.annotation.Around;
 import org.aspectj.lang.annotation.Aspect;
 import org.aspectj.lang.annotation.Pointcut;
 
+import io.github.anotherjack.aopdemo2.MyApplication;
 import io.github.anotherjack.aopdemo2.annotation.RequireLogin;
 import io.github.anotherjack.aopdemo2.loginmodule.LoginManager;
 
